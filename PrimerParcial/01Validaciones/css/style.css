@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: System-ui, Arial, sans-serif;
+    color: #1f2937;
+    background-color: #f9f1fb;
+}
+
+header {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 1.5ref;
+    text-align: center;
+}
+
+header a {
+    color: #ffffff;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;    
+    padding: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #6b7280;
+    font-size: 0.875rem;
+}
+
+/* Catalogo de talleres */
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.targeta {
+    padding: 1rem;
+    border: 1px solid #e5e7ed;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+}
+
+.targeta h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.targeta a {
+    color: #0f172a;
+    text-decoration: none;
+}
+
+.targeta a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios con Node</title>
+</head>
+<body>
+    <header>Ejercicios con node</header>
+    <main>
+        <section>
+            <h2 id="titulo-arreglos">Arreglos del codigo <code>01-arreglos.js</code></h2>
+            <p>Datos de prueba con js</p>
+            <div class="tabla-scroll">
+                <table id="tabla-talleres">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Instrustor</th>
+                            <th>Cupo</th>
+                            <th>Inscritos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <form id="form-arreglos" class="formulario">
+                <div class="campos">
+                    <label for="operacion-arreglo" name="operacion-arreglos">Operacion</label>
+                    <select name="operacion-arreglo" id="operacion-arreglo">
+                        <option value="forEach">ForEach-Lista Simple</option>
+                        <option value="map">map-Copia solo nombres</option>
+                        <option value="filter">Filter-Filtrar talleres con cupo lleno</option>
+                        <option value="find">find-Buscar por el nombre del instructor</option>
+                    </select>
+                </div>
+                <button type="submit">Ejecutar</button>
+                <output class="resultado" id="resultado-arreglo" for="form-arreglo"></output>
+            </form>
+        </section>
+        <section class="ejercicio" aria-labelledby="titulo-objeto">
+            <h2 id="titulo-objeto">Segunda parte de ejercicios: MANEJO DE OBJETOS Y JSON</h2>
+            <p>Edita el Taller y elije que operación aplicarle:</p>
+
+            <form class="formulario" id="form-objeto">
+                <div class="campo">
+                    <label for="obj-nombre">NOMBRE</label>
+                    <input type="text" id="obj-nombre" name="obj-nombre" value="Intriducción a Python">
+                </div>
+
+                <div class="campo-corta">
+                    <label for="obj-instructor">Instructor</label>
+                    <input type="text" id="obj-instructor" name="obj-instructor" value="Ing. María López">
+                </div>
+
+                <div class="campo-corta">
+                    <label for="obj-cupo">Cupo</label>
+                    <input type="text" id="obj-cupo" name="obj-cupo" value="25" min="0">
+                </div>
+
+                <div class="campo-corta">
+                    <label for="obj-inscritos">Inscritos</label>
+                    <input type="text" id="obj-inscritos" name="obj-inscritos" value="25" min="0">
+                </div>
+
+                <div class="campo">
+                    <label for="operacion-objeto">Operación a realizar</label>
+                    <select name="operacion-objeto" id="operacion-objeto">
+                        <option value="keys">Object.keys</option>
+                        <option value="values">Object.value</option>
+                        <option value="entries">Object.entries</option>
+                        <option value="stringify">JSON.stringify</option>
+                        <option value="roundtrip">Ida y vuelta de cadena a JSON</option>
+                    </select>
+                </div>
+                <button type="submit">Ejecutar opción de objeto</button>
+            </form>
+            <output class="resultado" id="resultado-objeto" for="form-objeto"></output>
+
+        </section>
+    </main>
+    <script src="./JS/app.js"></script>
+</body>
+</html>

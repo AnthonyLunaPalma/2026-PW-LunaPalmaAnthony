@@ -1,0 +1,20 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1d1d1d;
+    color: #fff;
+    border: none;
+    margin: 0px;
+}
+
+.header{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: radial-gradient(circle, #0e0950, #0e0038);
+}
+
+.subtitulo{
+    color: #929292;
+}

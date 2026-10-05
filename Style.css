@@ -92,6 +92,12 @@ body{
     background-color: #23bf2e;
 }
 
+.texto-GH{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .tarjeta2{
     background-color: #fffdfd;
     color: #131313;
@@ -122,6 +128,12 @@ body{
 
 .boton2:hover{
     background-color: #d92929;
+}
+
+.texto-LP{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .tarjeta3{
@@ -155,4 +167,10 @@ body{
 
 .boton3:hover{
     background-color: #9529d8;
+}
+
+.texto-JS{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }

@@ -63,7 +63,7 @@ body{
 .tarjeta1{
     background-color: #fffdfd;
     color: #131313;
-    border-left: 6px solid #e22b2b;
+    border-left: 6px solid #24c62f;
     width: 30%;
     margin-left:35px;
     margin-top: 5px;
@@ -74,7 +74,8 @@ body{
 }
 
 .boton1{
-    background-color: #e22b2b;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #24c62f;
     color: #fffdfd;
     border: none;
     padding: 10px 20px;
@@ -88,16 +89,15 @@ body{
 }
 
 .boton1:hover{
-    background-color: #d92929;
+    background-color: #23bf2e;
 }
 
 .tarjeta2{
     background-color: #fffdfd;
     color: #131313;
-    border-left: 6px solid #9c2be2;
+    border-left: 6px solid #e22b2b;
     width: 30%;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left:12px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -106,7 +106,8 @@ body{
 }
 
 .boton2{
-    background-color: #9c2be2;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e22b2b;
     color: #fffdfd;
     border: none;
     padding: 10px 20px;
@@ -120,5 +121,38 @@ body{
 }
 
 .boton2:hover{
+    background-color: #d92929;
+}
+
+.tarjeta3{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #9c2be2;
+    width: 30%;
+    margin-left: 12px;
+    margin-right: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.boton3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #9c2be2;
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton3:hover{
     background-color: #9529d8;
 }

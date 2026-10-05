@@ -1,3 +1,11 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1d1d1d;
+    color: #fff;
+    border: none;
+    margin: 0px;
+}
+
 .header{
     text-align: center;
     align-self: center;
@@ -19,8 +27,8 @@
 .content{
     background-color: hsl(0, 0%, 13%);
     color: #fffdfd;
-    margin-left:50px;
-    margin-right:50px;
+    margin-left:35px;
+    margin-right:35px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -29,26 +37,88 @@
     padding-bottom: 1px;
 }
 
-.landing-page{    background-color: hsl(0, 0%, 13%);
+.parcial1{
+    margin-left:35px;
+}
+
+.texto-primer-parcial{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 35px;
+}
+
+.img1{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.primer-parcial{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tarjeta1{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #e22b2b;
+    width: 30%;
+    margin-left:35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.boton1{
+    background-color: #e22b2b;
     color: #fffdfd;
-    margin-left:50px;
-    margin-right:50px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton1:hover{
+    background-color: #d92929;
+}
+
+.tarjeta2{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #9c2be2;
+    width: 30%;
+    margin-left: 12px;
+    margin-right: 12px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
     padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
 }
 
-.btn-landing-page{
-    text-decoration: none;
-}
-
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1d1d1d;
-    color: #fff;
+.boton2{
+    background-color: #9c2be2;
+    color: #fffdfd;
     border: none;
-    margin: 0px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton2:hover{
+    background-color: #9529d8;
 }

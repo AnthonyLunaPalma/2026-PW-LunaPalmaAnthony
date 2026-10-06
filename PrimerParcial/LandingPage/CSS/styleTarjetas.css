@@ -17,6 +17,18 @@ html,body{
     padding-bottom: 1px;
     margin-bottom: 25px;
     background: radial-gradient(circle, #0e0950, #0e0038);
+
+}.contenedor-titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 25px;
+    background: radial-gradient(circle, #0e0950, #0e0038);
 }
 
 .subtitulo{
@@ -25,19 +37,13 @@ html,body{
     color: #929292;
 }
 
-.contenedor-principal{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
 .contenedor-principal1{
     background-color: #fffdfd;
     color: #131313;
     border-left: 6px solid #24c62f;
-    width: 30%;
     margin-left:35px;
-    margin-top: 5px;
+    margin-right: 35px;
+    margin-top: 10px;
     margin-bottom: 5px;
     border-radius: 10px;
     padding-left: 15px;
@@ -54,6 +60,7 @@ html,body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 35px;
     margin-top: 10px;
     cursor: pointer;
     border-radius: 50px;
@@ -66,8 +73,8 @@ html,body{
     background-color: #fffdfd;
     color: #131313;
     border-left: 6px solid #c62424;
-    width: 30%;
-    margin-left:12px;
+    margin-left:35px;
+    margin-right: 35px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -85,6 +92,7 @@ html,body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 35px;
     margin-top: 10px;
     cursor: pointer;
     border-radius: 50px;
@@ -97,8 +105,7 @@ html,body{
     background-color: #fffdfd;
     color: #131313;
     border-left: 6px solid #24bec6;
-    width: 30%;
-    margin-left: 12px;
+    margin-left: 35px;
     margin-right: 35px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -117,7 +124,9 @@ html,body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 35px;
     margin-top: 10px;
+    margin-bottom: 15px; 
     cursor: pointer;
     border-radius: 50px;
 }
@@ -125,18 +134,12 @@ html,body{
     background-color: #21b6be;
 }
 
-.contenedor-principal7{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
 .contenedor-principal4{
     background-color: #fffdfd;
     color: #131313;
     border-left: 6px solid #c68d24;
-    width: 30%;
     margin-left:35px;
+    margin-right: 35px;
     margin-top: 12px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -154,6 +157,7 @@ html,body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 35px;
     margin-top: 10px;
     cursor: pointer;
     border-radius: 50px;
@@ -166,8 +170,8 @@ html,body{
     background-color: #fffdfd;
     color: #131313;
     border-left: 6px solid #7024c6;
-    width: 30%;
-    margin-left:12px;
+    margin-left: 35px;
+    margin-right: 35px;
     margin-top: 12px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -185,45 +189,13 @@ html,body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 35px;
     margin-top: 10px;
     cursor: pointer;
     border-radius: 50px;
 }
 .boton5:hover{
     background-color: #9529d8;
-}
-
-.contenedor-principal6{
-    background-color: #fffdfd;
-    color: #131313;
-    border-left: 6px solid #c6a824;
-    width: 30%;
-    margin-left:12px;
-    margin-right:35px;
-    margin-top: 12px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-}
-
-.boton6{
-    font-family:'Courier New', Courier, monospace;
-    background: radial-gradient(circle, #0e0950, #0e0038);
-    color: #fffdfd;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 47px;
-    margin-top: 80px;
-    cursor: pointer;
-    border-radius: 50px;
-}
-.boton6:hover{
-    background: radial-gradient(circle, #120c63, #160059);
 }
 
 footer{

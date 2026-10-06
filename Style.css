@@ -137,12 +137,6 @@ body{
     gap: 8px;
 }
 
-.img2{
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-}
-
 .tarjeta3{
     background-color: #fffdfd;
     color: #131313;

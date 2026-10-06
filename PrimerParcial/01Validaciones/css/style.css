@@ -2,15 +2,47 @@
     box-sizing: border-box;
 }
 
+.titulo{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.descripcion{
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 20px;
+    color: #929292;
+}
+
+.boton-volver-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton-volver{
+    font-family:'Courier New', Courier, monospace;
+    background: radial-gradient(circle, #0e0950, #0e0038);
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
 body {
     margin: 0;
     font-family: System-ui, Arial, sans-serif;
     color: #1f2937;
-    background-color: #f9f1fb;
+    background-color: #1d1d1d;
 }
 
-header {
-    background-color: #0f172a;
+header{
+    background: radial-gradient(circle, #0e0950, #0e0038);
     color: #ffffff;
     padding: 1.5ref;
     text-align: center;
@@ -29,7 +61,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem;
-    color: #6b7280;
+    color: #929292;
     font-size: 0.875rem;
 }
 
@@ -60,4 +92,11 @@ footer {
 
 .targeta a:hover {
     text-decoration: underline;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    color: #929292;
 }

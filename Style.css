@@ -21,6 +21,7 @@ body{
 }
 
 .subtitulo{
+    font-family: 'Courier New', Courier, monospace;
     color: #929292;
 }
 
@@ -74,7 +75,7 @@ body{
 }
 
 .boton1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     background-color: #24c62f;
     color: #fffdfd;
     border: none;
@@ -112,7 +113,7 @@ body{
 }
 
 .boton2{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     background-color: #e22b2b;
     color: #fffdfd;
     border: none;
@@ -136,6 +137,12 @@ body{
     gap: 8px;
 }
 
+.img2{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
 .tarjeta3{
     background-color: #fffdfd;
     color: #131313;
@@ -151,7 +158,7 @@ body{
 }
 
 .boton3{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     background-color: #9c2be2;
     color: #fffdfd;
     border: none;
@@ -173,4 +180,11 @@ body{
     display: inline-flex;
     align-items: center;
     gap: 8px;
+}
+
+footer{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    color: #929292;
 }

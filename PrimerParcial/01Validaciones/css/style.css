@@ -257,13 +257,14 @@ footer {
 .formulario-registro{
     background-color: #fffdfd;
     color: #131313;
-    width: 30%;
+    width: 39%;
     min-height: 40vh;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
     padding-left: 15px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .boton-registrar-asistencia{
@@ -283,4 +284,13 @@ footer {
 
 .boton-registrar-asistencia:hover{
     background: radial-gradient(circle, #120c6c, #13004d);
+}
+
+input{
+    border: none;
+    border-bottom: #0e0038 solid 1px;
+}
+
+input:focus {
+    outline: none;
 }

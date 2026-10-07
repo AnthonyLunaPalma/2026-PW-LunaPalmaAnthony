@@ -34,6 +34,10 @@
     border-radius: 50px;
 }
 
+.boton-volver:hover{
+    background: radial-gradient(circle, #120c6c, #13004d);
+}
+
 body {
     margin: 0;
     font-family: System-ui, Arial, sans-serif;
@@ -52,6 +56,12 @@ header a {
     color: #ffffff;
 }
 
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
 main {
     max-width: 960px;
     margin: 0 auto;    
@@ -65,32 +75,72 @@ footer {
     font-size: 0.875rem;
 }
 
-/* Catalogo de talleres */
-
-.catalogo {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-}
-
-.targeta {
+.targeta1{
     padding: 1rem;
     border: 1px solid #e5e7ed;
     border-radius: 0.5rem;
     background-color: #ffffff;
+    border-left: 6px solid #24c62f;
+    margin-bottom: 15px;
 }
 
-.targeta h2 {
+.targeta2{
+    padding: 1rem;
+    border: 1px solid #e5e7ed;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    border-left: 6px solid #e22b2b;
+    margin-bottom: 15px;
+}
+
+.targeta3{
+    padding: 1rem;
+    border: 1px solid #e5e7ed;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    border-left: 6px solid #9c2be2;
+    margin-bottom: 15px;
+}
+
+.targeta1 h2 {
     margin-top: 0;
     font-size: 1.1rem;
 }
 
-.targeta a {
+.targeta2 h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.targeta3 h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.targeta1 a {
     color: #0f172a;
     text-decoration: none;
 }
 
-.targeta a:hover {
+.targeta2 a {
+    color: #0f172a;
+    text-decoration: none;
+}
+
+.targeta3 a {
+    color: #0f172a;
+    text-decoration: none;
+}
+
+.targeta1 a:hover {
+    text-decoration: underline;
+}
+
+.targeta2 a:hover {
+    text-decoration: underline;
+}
+
+.targeta3 a:hover {
     text-decoration: underline;
 }
 
@@ -99,4 +149,73 @@ footer {
     text-align: center;
     padding: 10px;
     color: #929292;
+}
+
+.boton-registrar1{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #24c62f;
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.boton-registrar1:hover{
+    background-color: #1fa728;
+}
+
+.boton-registrar2{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #e22b2b;
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton-registrar2:hover{
+    background-color: #d11f1f;
+}
+
+.boton-registrar3{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #9629d9;
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton-registrar3:hover{
+    background-color: #8a24d9;
+}
+
+.detalle-taller1{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #24c62f;
+    width: 30%;
+    min-height: 40vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
 }

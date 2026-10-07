@@ -219,3 +219,68 @@ footer {
     padding-left: 15px;
     padding-bottom: 10px;
 }
+
+.detalle-taller2{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #e22b2b;
+    width: 30%;
+    min-height: 40vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.detalle-taller3{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #9629d9;
+    width: 30%;
+    min-height: 40vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.main-catalogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.formulario-registro{
+    background-color: #fffdfd;
+    color: #131313;
+    width: 30%;
+    min-height: 40vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.boton-registrar-asistencia{
+    font-family:'Courier New', Courier, monospace;
+    background: radial-gradient(circle, #0e0950, #0e0038);
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton-registrar-asistencia:hover{
+    background: radial-gradient(circle, #120c6c, #13004d);
+}

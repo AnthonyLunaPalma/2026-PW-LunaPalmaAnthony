@@ -96,7 +96,7 @@ html,body{
 .contenedor-principal3{
     background-color: #fffdfd;
     color: #131313;
-    border-left: 6px solid #24bec6;
+    border-left: 6px solid #9c2be2;
     width: 30%;
     margin-left: 12px;
     margin-right: 35px;
@@ -109,7 +109,7 @@ html,body{
 
 .boton3{
     font-family:'Courier New', Courier, monospace;
-    background-color: #24bec6;
+    background-color: #9c2be2;
     color: #fffdfd;
     border: none;
     padding: 10px 20px;
@@ -122,7 +122,7 @@ html,body{
     border-radius: 50px;
 }
 .boton3:hover{
-    background-color: #21b6be;
+    background-color: #9529d8;
 }
 
 .contenedor-principal7{
@@ -165,7 +165,7 @@ html,body{
 .contenedor-principal5{
     background-color: #fffdfd;
     color: #131313;
-    border-left: 6px solid #7024c6;
+    border-left: 6px solid #2495c6;
     width: 30%;
     margin-left:12px;
     margin-top: 12px;
@@ -177,7 +177,7 @@ html,body{
 
 .boton5{
     font-family:'Courier New', Courier, monospace;
-    background-color: #9c2be2;
+    background-color: #2495c6;
     color: #fffdfd;
     border: none;
     padding: 10px 20px;
@@ -190,7 +190,7 @@ html,body{
     border-radius: 50px;
 }
 .boton5:hover{
-    background-color: #9529d8;
+    background-color: #2189b6;
 }
 
 .contenedor-principal6{

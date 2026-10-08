@@ -176,6 +176,44 @@ body{
     gap: 8px;
 }
 
+.tarjeta4{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #c68d24;
+    width: 30%;
+    margin-left:35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.boton4{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #c68d24;
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton4:hover{
+    background-color: #c28a22;
+}
+
+.texto-ejercicios{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
 footer{
     font-family:'Courier New', Courier, monospace;
     text-align: center;

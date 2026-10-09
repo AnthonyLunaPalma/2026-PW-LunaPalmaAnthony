@@ -24,11 +24,109 @@ header{
     color: #929292;
 }
 
-footer {
+input{
+    border: none;
+    border-bottom: #0e0038 solid 1px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.tarjeta1{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #24c62f;
+    width: 30%;
+    margin-left:35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.boton1{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #24c62f;
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
     text-align: center;
-    padding: 1rem;
-    color: #929292;
-    font-size: 0.875rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton1:hover{
+    background-color: #23bf2e;
+}
+
+.tarjeta2{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #e22b2b;
+    width: 30%;
+    margin-left:35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.boton2{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #e22b2b;
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton2:hover{
+    background-color: #d92929;
+}
+
+.tarjeta3{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #9c2be2;
+    width: 30%;
+    margin-left:35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.boton3{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #9c2be2;
+    color: #fffdfd;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.boton3:hover{
+    background-color: #9529d8;
 }
 
 .boton-volver-container{
@@ -53,4 +151,11 @@ footer {
 
 .boton-volver:hover{
     background: radial-gradient(circle, #120c6c, #13004d);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #929292;
+    font-size: 0.875rem;
 }

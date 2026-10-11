@@ -55,6 +55,14 @@ body{
     object-fit: contain;
 }
 
+.img2{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 .primer-parcial{
     display: flex;
     flex-direction: row;

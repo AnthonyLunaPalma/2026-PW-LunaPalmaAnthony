@@ -184,6 +184,12 @@ body{
     gap: 8px;
 }
 
+.segundo-parcial{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .tarjeta4{
     background-color: #fffdfd;
     color: #131313;
@@ -220,6 +226,25 @@ body{
     display: inline-flex;
     align-items: center;
     gap: 8px;
+}
+
+.tercer-parcial{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tarjeta5{
+    background-color: #fffdfd;
+    color: #131313;
+    border-left: 6px solid #2495c6;
+    width: 30%;
+    margin-left:35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
 }
 
 footer{

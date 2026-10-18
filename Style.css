@@ -3,7 +3,10 @@ body{
     background-color: #1d1d1d;
     color: #fff;
     border: none;
-    margin: 0px;
+    margin-left: 170px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .header{
@@ -36,6 +39,36 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 1px;
+}
+
+.sidebar {
+    width: 170px;
+    height: 100vh;
+    background-color: #212121;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+}
+
+
+.sidebar-menu {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.sidebar-menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #a2a5b9;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #363740;
+    color: #fff;
 }
 
 .parcial1{

@@ -3,10 +3,7 @@ body{
     background-color: #1d1d1d;
     color: #fff;
     border: none;
-    margin-left: 170px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 .header{
@@ -16,6 +13,10 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     background: radial-gradient(circle, #0e0950, #0e0038);
+    position: relative;
+    z-index: 100;
+    width: 100%; 
+    grid-area: header;
 }
 
 .bienvenida{
@@ -26,6 +27,23 @@ body{
 .subtitulo{
     font-family: 'Courier New', Courier, monospace;
     color: #929292;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar main";
+    min-height: 100vh;
+    background: linear-gradient(to right, #212121 180px, transparent 180px);
+}
+
+main{
+    grid-area: main;
+    margin: 0px;
+    height: 100%; 
 }
 
 .content{
@@ -43,32 +61,39 @@ body{
 
 .sidebar {
     width: 170px;
-    height: 100vh;
-    background-color: #212121;
+    height: max-content;
     color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    display: flex;
     flex-direction: column;
+    grid-area: sidebar;
 }
 
 
 .sidebar-menu {
     list-style: none;
     padding: 20px 0;
+    margin-top: 0;
+    padding-top: 30px;
 }
 
 .sidebar-menu li a {
+    border-color:#681899;
+    border-radius: 15px;
     display: block;
     padding: 15px 20px;
     color: #a2a5b9;
     text-decoration: none;
     transition: background 0.3s, color 0.3s;
+    transition: border 0.7s;
 }
 
 .sidebar-menu li a:hover {
     background-color: #363740;
     color: #fff;
+    border-left: 6px solid #0e0950;
 }
 
 .parcial1{

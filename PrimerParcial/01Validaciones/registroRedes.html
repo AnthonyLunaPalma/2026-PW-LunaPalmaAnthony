@@ -7,35 +7,46 @@
   <link rel="shortcut icon" href="../../Imagenes/logoJavaScript.png" type="image/x-icon">
 </head>
 <body>
-<header>
-    <h1 class="titulo">Catalogo de Talleres</h1>
-    <p class="descripcion"><b>-- Selecciona un Taller para Registrar Tu Asistencia --</b></p>
-  </header>
-  <main class="main-catalogo">
-    <form class="formulario-registro" id="form-registro" novalidate>
-      <h1>Formulario de registro de asistencia.</h1>
+  <div class="grid-container">
+    <header>
+      <h1 class="titulo">Catalogo de Talleres</h1>
+      <p class="descripcion"><b>-- Selecciona un Taller para Registrar Tu Asistencia --</b></p>
+    </header>
+    <aside class="sidebar">
+      <ul class="sidebar-menu">
+        <li><a href="../../index.html">Inicio</a></li>
+        <li><a href="https://github.com/AnthonyLunaPalma" target="_blank">GitHub</a></li>
+        <li><a href="../LandingPage/PaginaLandingePage.html">Landing Page</a></li>
+        <li><a href="./index.html">Validaciones</a></li>
+        <li><a href="../02Ejercicios/talleres.html">Ejercicios</a></li>
+      </ul>
+    </aside>
+    <main class="main-catalogo">
+      <form class="formulario-registro" id="form-registro" novalidate>
+        <h1>Formulario de registro de asistencia.</h1>
 
-      <label for="nombre">Nombre Completo:</label>
-      <input type="text" id="nombre" name="nombre" required>
-      <span class="error" id="error-nombre"></span>
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <span class="error" id="error-nombre"></span>
 
-      <label for="boleta">Número de Boleta:</label>
-      <input type="text" id="boleta" name="boleta" required>
-      <span class="error" id="error-boleta"></span>
-      <label for="fecha">Fecha de registro (DD/MM/AAAA)</label>
-      <input type="text" id="DD/MM/AAAA" required placeholder="DD/MM/AAAA">
-      <span class="error" id="error-fecha"></span>
+        <label for="boleta">Número de Boleta:</label>
+        <input type="text" id="boleta" name="boleta" required>
+        <span class="error" id="error-boleta"></span>
+        <label for="fecha">Fecha de registro (DD/MM/AAAA)</label>
+        <input type="text" id="DD/MM/AAAA" required placeholder="DD/MM/AAAA">
+        <span class="error" id="error-fecha"></span>
 
-      <button type="submit" class="boton-registrar-asistencia"><b>Registrar asistencia</b></button>
-      <p class="mensaje-exito" id="mensaje-exito"></p>
-    </form>    
-  </main>
-  <div class="boton-volver-container">
-    <a href="./detalleRedes.html"><button class="boton-volver"><b>Volver</b></button></a>
+        <button type="submit" class="boton-registrar-asistencia"><b>Registrar asistencia</b></button>
+        <p class="mensaje-exito" id="mensaje-exito"></p>
+      </form>
+      <div class="boton-volver-container">
+        <a href="../01Validaciones/detalleRedes.html"><button class="boton-volver"><b>Volver</b></button></a>
+      </div>
+    </main>
+    <footer>
+      <p class="descripcion"><b>-- Para mejor contacto venga a Bátiz --</b></p>
+    </footer>
+    <script src="./JS/validaciones.js"></script>
   </div>
-  <footer>
-    <p class="descripcion"><b>-- Para mejor contacto venga a Bátiz --</b></p>
-  </footer>
-  <script></script>
 </body>
 </html>

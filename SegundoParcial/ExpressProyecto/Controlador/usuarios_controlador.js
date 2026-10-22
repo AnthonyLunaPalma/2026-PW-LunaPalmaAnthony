@@ -9,7 +9,7 @@ const {validarCorreo, validarBoleta, validarContraseña} = require('../validacio
 function esduplicado(error){
     return error.code === 'ER_DUP_ENTRY' || error.code ==='23505';
 }
-
+ 
 async function listarUsuarios(req, res) {
     try{
         const usuarios = await usuariosModel.listar();
@@ -27,4 +27,10 @@ async function obtenerUsuario(req, res) {
     }catch(error){
         res.status(500).json({error: error.message});
     }
+}
+
+//A partir de aqui implementar
+
+async function crearUsuario(req, res) {
+    
 }

@@ -4,12 +4,13 @@
 
 //Correo
 function validarCorreo(correo){
-    
+
 }
 
 //Boleta
 function validaBoleta(boleta){
-    
+    if(boleta.length < 18);
+    return boleta.lengt;
 }
 
 //Contraseña
